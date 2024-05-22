@@ -4,7 +4,7 @@ declare solutionName="ParchApp"
 declare projectType="webapi --use-controllers"
 declare projectIdentifier="Api"
 declare projectName="$solutionName.$projectIdentifier"
-cd ../
+cd ../../
 
 dotnet new sln -o $solutionName
 
